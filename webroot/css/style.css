@@ -1,0 +1,105 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/*noinspection CssOverwrittenProperties*/
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+
+    background: -webkit-linear-gradient(-90deg, rgba(255, 255, 255, 1) 0, rgba(9, 212, 234, 1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0, rgba(9, 212, 234, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0, rgba(9, 212, 234, 1) 100%);
+    background-position: 50% 50%;
+}
+
+#page-wrap {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+/* Header */
+header {
+    margin-bottom: 10px;
+}
+
+.navbar {
+    /*margin-bottom: 20px;*/
+}
+
+.navbar ul.nav:first-child {
+    margin-left: -15px;
+}
+
+/* Site */
+.content {
+    border-radius: 6px;
+    padding: 10px;
+
+    background-color: #fff;
+    border: #c2c2c2 solid;
+}
+
+.transcript-item {
+    margin-top: 10px;
+    border-bottom: black solid 1px;
+}
+.transcript-item:last-of-type {
+    border-bottom: none;
+}
+
+.comments {
+    margin-top: 10px;
+}
+.comment {
+    margin-top: 10px;
+    border-bottom: black solid 1px;
+}
+.comment:last-of-type {
+    border-bottom: none;
+}
+
+/* Lesson */
+.lesson-content {
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: #fff;
+    border: #c2c2c2 solid;
+}
+
+.questions-progress .correct a, .questions-progress .correct a:hover, .questions-progress .correct a:focus {
+    color: #fff;
+    background-color: #18b700;
+    border-color: #18b700;
+}
+
+.questions-progress .wrong a, .questions-progress .wrong a:hover, .questions-progress .wrong a:focus {
+    color: #fff;
+    background-color: #b70900;
+    border-color: #b70900;
+}
+
+.match-options-right li {
+    min-height: 34px;
+}
+
+/* Footer styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+footer .container .text-muted {
+    margin: 20px 0;
+}
+
+/* Helpers */
+.center-margin {
+    margin: 0 auto;
+}
